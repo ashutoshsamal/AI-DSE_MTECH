@@ -9,6 +9,7 @@ def Astar(start, end, grid):
     open_set = set([start])
     closed_set = set()
     # g stores current shortest distance from start to the current node
+
     g = {}
     g[start] = 0
     # parents stores an adjacency map of all nodes
